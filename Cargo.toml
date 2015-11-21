@@ -1,0 +1,11 @@
+[package]
+name = "ruska"
+version = "0.1.0"
+authors = ["Sean Pietz"]
+
+[dependencies]
+kafka = "*"
+lmdb-rs = "*"
+
+[dependencies.protobuf]
+git = "https://github.com/stepancheg/rust-protobuf.git"
